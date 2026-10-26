@@ -69,7 +69,10 @@ function renderBoard() {
     const d = T().dept[dept.id];
     return `
     <section class="dept dept-${dept.id}">
-      <header class="dept-head"><h2>${d.name}</h2><p>${d.tag}</p></header>
+      <header class="dept-head">
+        <span class="dept-badge" aria-hidden="true">${d.icon}</span>
+        <div><h2>${d.name}</h2><p>${d.tag}</p></div>
+      </header>
       <div class="facts">${dept.factIds.map(factCardHTML).join('')}</div>
     </section>`;
   }).join('');

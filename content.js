@@ -21,9 +21,9 @@ const TEXT = {
       pdf: 'PDF',
     },
     dept: {
-      design: { name: 'Дизайн', tag: 'механики, уровни, документация' },
-      engines: { name: 'Движки', tag: 'прототипы, playable, WebGL' },
-      analytics: { name: 'Аналитика', tag: 'баланс, данные, экономика' },
+      design: { name: 'Дизайн', tag: 'механики, уровни, документация', icon: '🍕' },
+      engines: { name: 'Движки', tag: 'прототипы, playable, WebGL', icon: '🎮' },
+      analytics: { name: 'Аналитика', tag: 'баланс, данные, экономика', icon: '⭐' },
     },
     facts: {
       echoloop: {
@@ -115,7 +115,7 @@ const TEXT = {
       closing: '«Уверенная математика» из вашей вакансии читается так: не называть числа, а показывать, откуда они взялись.',
     },
     footer: {
-      made: 'Сделано без движка и зависимостей: HTML, CSS, JS.',
+      made: 'Сделано без движка и сборки: HTML, CSS, JS. Шрифт — Baloo 2.',
       others: 'Другие резюме-игры — github.com/Kerarty',
       print: 'Печать',
     },
@@ -142,9 +142,9 @@ const TEXT = {
       pdf: 'PDF',
     },
     dept: {
-      design: { name: 'Design', tag: 'mechanics, levels, documentation' },
-      engines: { name: 'Engines', tag: 'prototypes, playable ads, WebGL' },
-      analytics: { name: 'Analytics', tag: 'balance, data, economy' },
+      design: { name: 'Design', tag: 'mechanics, levels, documentation', icon: '🍕' },
+      engines: { name: 'Engines', tag: 'prototypes, playable ads, WebGL', icon: '🎮' },
+      analytics: { name: 'Analytics', tag: 'balance, data, economy', icon: '⭐' },
     },
     facts: {
       echoloop: {
@@ -236,7 +236,7 @@ const TEXT = {
       closing: 'I read "confident math" from your vacancy as: do not name numbers, show where they come from.',
     },
     footer: {
-      made: 'Built with no engine and no dependencies: HTML, CSS, JS.',
+      made: 'Built with no engine and no build step: HTML, CSS, JS. Font: Baloo 2.',
       others: 'Other resume games — github.com/Kerarty',
       print: 'Print',
     },

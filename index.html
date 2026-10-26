@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ярослав Кукар — резюме-экономика для OpenMyGame</title>
+<meta name="description" content="Интерактивное резюме геймдизайнера: экономика, в которую HR вкладывает секунды внимания. Баланс-лист открыт.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23F2B33D' stroke='%23D99000' stroke-width='2'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='17' font-weight='bold' fill='%232A2418'%3E%D1%81%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hud">
+  <div class="hud-left">
+    <div class="balance-wrap">
+      <span id="balance" class="balance-big">30</span>
+      <span id="balance-caption" class="balance-caption"></span>
+      <span id="rate" class="rate"></span>
+    </div>
+    <span id="timer" class="timer"></span>
+  </div>
+  <div class="hud-btns">
+    <button id="coffee-btn" class="hud-btn"></button>
+    <button id="showall-btn" class="hud-btn"></button>
+    <button id="designer-btn" class="hud-btn"></button>
+    <button id="lang-btn" class="hud-btn"></button>
+    <a id="pdf-hud" class="hud-btn" href="assets/Yaroslav_Kukar_CV.pdf" target="_blank"></a>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <h1 id="name"></h1>
+    <p id="role" class="role"></p>
+    <p id="pitch" class="pitch"></p>
+    <p id="sub" class="sub"></p>
+  </section>
+
+  <section id="board" class="board"></section>
+
+  <aside id="synergy" class="synergy" data-state="hidden"></aside>
+
+  <section id="finale" class="finale hidden"></section>
+
+  <section id="designer-panel" class="designer-panel hidden"></section>
+
+  <footer class="footer">
+    <span id="made"></span>
+    <a id="others" href="https://github.com/Kerarty" target="_blank" rel="noopener"></a>
+    <a id="print-link" href="#"></a>
+  </footer>
+</main>
+
+<div class="print-header">
+  <h1 id="print-name"></h1>
+  <p id="print-sub"></p>
+  <p id="print-contacts"></p>
+</div>
+
+<noscript>
+  <p>Для игры-резюме нужен JavaScript. Классическое резюме: <a href="assets/Yaroslav_Kukar_CV.pdf">PDF</a>.</p>
+</noscript>
+
+<script src="content.js"></script>
+<script src="economy.js"></script>
+<script src="idle.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

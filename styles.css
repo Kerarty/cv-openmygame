@@ -359,6 +359,10 @@ main {
 
 .fact[data-state="locked"] .fact-body { display: none; }
 
+/* Факт раскрыт — блок покупки уходит целиком: без светящейся кнопки
+   и без наезжания на текст, как их игры убирают колесо после слова */
+.fact[data-state="open"] .lock-ui { display: none; }
+
 .fact-body p { font-size: 15px; line-height: 1.55; }
 
 .fact-body .fact-link {

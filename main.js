@@ -32,7 +32,6 @@ function renderStatic() {
   $('#pdf-hud').textContent = T().hud.pdf;
   $('#print-link').textContent = T().footer.print;
   $('#made').textContent = T().footer.made;
-  $('#others').textContent = T().footer.others;
   $('#print-sub').textContent = T().print.subtitle;
   $('#print-name').textContent = T().header.name;
   $('#print-contacts').textContent = T().contacts.phone + ' · ' + T().contacts.email + ' · ' + T().contacts.github;
@@ -108,8 +107,7 @@ function renderFinale() {
       <a href="tel:${c.phone.replace(/ /g, '')}">${c.phone}</a>
       <a href="mailto:${c.email}">${c.email}</a>
       <span>${c.github}</span>
-    </div>
-    <p class="fin-ps">${f.ps}</p>`;
+    </div>`;
   $('#again-btn').addEventListener('click', restart);
   $('#finale').classList.toggle('hidden', !Game.state.finished);
 }

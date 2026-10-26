@@ -89,7 +89,6 @@ const TEXT = {
       pdf: 'Скачать PDF',
       github: 'GitHub',
       again: 'Пройти заново',
-      ps: 'Резюме-игры под другие студии — на GitHub: каждая собрана под задачи конкретной компании.',
     },
     contacts: {
       title: 'Контакты',
@@ -116,7 +115,6 @@ const TEXT = {
     },
     footer: {
       made: 'Сделано без движка и сборки: HTML, CSS, JS. Шрифт — Baloo 2.',
-      others: 'Другие резюме-игры — github.com/Kerarty',
       print: 'Печать',
     },
     print: { subtitle: 'Геймдизайнер · печатная версия резюме-экономики' },
@@ -210,7 +208,6 @@ const TEXT = {
       pdf: 'Download PDF',
       github: 'GitHub',
       again: 'Run it again',
-      ps: 'Resume games for other studios live on GitHub: each one is built around that company\'s actual tasks.',
     },
     contacts: {
       title: 'Contacts',
@@ -237,7 +234,6 @@ const TEXT = {
     },
     footer: {
       made: 'Built with no engine and no build step: HTML, CSS, JS. Font: Baloo 2.',
-      others: 'Other resume games — github.com/Kerarty',
       print: 'Print',
     },
     print: { subtitle: 'Game designer · printable version of the resume economy' },
